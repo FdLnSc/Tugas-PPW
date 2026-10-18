@@ -620,7 +620,6 @@ nav a {
 
 .bungkus-judul {
   display: flex;
-  flex-direction: row;
   width: 100%;
   justify-content: space-between;
 }
@@ -633,7 +632,6 @@ nav a {
 .icon-top {
   display: flex;
   flex-direction: row;
-
   align-items: center;
 }
 
@@ -652,6 +650,7 @@ nav a {
 
 .scroll-menu {
   display: flex;
+  justify-content: center;
 }
 
 .scroll-menu a img {
@@ -674,6 +673,6 @@ nav a {
   text-align: start;
   width: 100%;
   padding: 15px;
-  border-top: 1px solid rgba(0, 0, 0, 0.121);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.115);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
