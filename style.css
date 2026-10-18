@@ -391,9 +391,11 @@ nav a {
 }
 
 .konten-utama {
-  flex: 1;
   min-width: 0;
   background-color: white;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid black;
 }
 
 .panel-kanan {
@@ -675,4 +677,37 @@ nav a {
   padding: 15px;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.template-box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+  justify-content: center;
+  filter: drop-shadow(0 0 0.2rem rgb(0, 0, 0));
+}
+
+.top-template {
+  filter: drop-shadow(0.5);
+  height: auto;
+  background-color: #ffffff;
+}
+
+.bottom-template {
+  background-color: #e7e9eb;
+}
+
+.bottom-template a {
+  text-decoration: none;
+  color: white;
+}
+
+.bottom-template a h3 {
+  text-align: center;
+  background-color: #04aa6d;
+  width: 20%;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 7.5px;
+  font-size: 15px;
 }
