@@ -682,13 +682,16 @@ nav a {
 .template-box {
   display: flex;
   flex-direction: column;
-  margin: 0 25px;
+  overflow: hidden;
+  margin: 25px 25px;
+
   justify-content: center;
   filter: drop-shadow(0 0 0.2rem rgb(0, 0, 0));
 }
 
 .top-template {
   filter: drop-shadow(0.5);
+  padding: 15px;
   height: auto;
   background-color: #ffffff;
 }
@@ -710,4 +713,18 @@ nav a {
   margin: 12px;
   border-radius: 7.5px;
   font-size: 15px;
+}
+
+.top-template a {
+  text-decoration: none;
+}
+
+.top-template a h2 {
+  margin: 10px 0 20px 0;
+  font-size: 100;
+  color: black;
+}
+
+.slideshow-part img {
+  width: 50%;
 }
